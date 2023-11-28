@@ -1,5 +1,6 @@
 .repos-container {
-    background-image: radial-gradient(18% 28% at 18% 71%, #0101B6 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #0101B6 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #0101B6 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #0101B6 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #0101B6 7%, #073AFF00 100%),linear-gradient(323deg, #000023 1%, #4C00FCFF 100%),radial-gradient(74% 86% at 67% 38%, #000023 24%, #073AFF00 100%);
+    /* background-image: radial-gradient(18% 28% at 18% 71%, #0101B6 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #0101B6 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #0101B6 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #0101B6 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #0101B6 7%, #073AFF00 100%),linear-gradient(323deg, #000023 1%, #4C00FCFF 100%),radial-gradient(74% 86% at 67% 38%, #000023 24%, #073AFF00 100%); */
+    background-color: #020243;
     min-width: 100%;
     min-height: 100vh;
     position: absolute;
@@ -11,6 +12,7 @@
 }
 
 .repos-heading {
+    margin-top: 2vh;
     font-size: 2rem;
     font-weight: 900;
     color: white;

@@ -65,3 +65,9 @@
   .item-img:hover .play-button-overlay {
     display: block; 
   }
+
+  @media (max-width: 500px){
+    .item-container{
+        width: 60%;
+    }
+  }

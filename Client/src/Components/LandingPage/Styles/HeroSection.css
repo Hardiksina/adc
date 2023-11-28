@@ -5,6 +5,10 @@
     margin: 0px;
 }
 
+.landing-container{
+    width: 100%;
+    overflow: hidden;
+}
 .herosection-container::before {
     content: "";
     background: url("../../../assets/Images/background.jpg");
@@ -21,11 +25,12 @@
 
 .herosection-container{
     padding: 3em 4em;
-    height: 69vh;
+    height: 88svh;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-content{
@@ -59,7 +64,6 @@
 
 .hero-logo{
     margin:1%;
-    width: 17%;
     height: 30vh;
     border-radius: 50%;
     animation: pulse 2s infinite, all 0.4s ease-in-out;
@@ -99,4 +103,48 @@
     text-align: center;
 
     letter-spacing: 2px;
+}
+
+
+@media (max-width: 1252px){
+    .heading{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1090px){
+    .hero-logo{
+        height: 25vh;
+    }
+    .heading{
+        font-size: 2.0rem;
+    }
+}
+
+@media (max-width: 950px){
+    .hero-left-cont{
+        display: none;
+    }
+    .hero-right-cont{
+        display: none;
+    }
+    .hero-content{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 550px){
+    .hero-desc{
+        width: 94%;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 450px){
+    .hero-desc >p{
+        font-size: 1rem;
+    }
+    .hero-desc{
+        width: 100%;
+    }
 }

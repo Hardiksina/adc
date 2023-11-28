@@ -14,7 +14,7 @@ export const WhyUs = () => {
             </div>
             <div className="whyus-left-flare"></div>
             <div className="heading-whyus-head">
-                <h1 className="heading" style={{fontSize: "2rem", textAlign: "end", padding: "0em"}}>
+                <h1 className="heading" id="whyus-heading">
                     Your <span style={{color: "#01caff"}}>Imagination</span>, Our Innovation {`<<<`}
                 </h1>
                 <div className="underline"></div>

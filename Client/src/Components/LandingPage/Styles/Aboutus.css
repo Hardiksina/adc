@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 460vh;
+    height: 472vh;
     width: 100%;
     position: absolute;
     top: 100vh;
@@ -76,4 +76,80 @@
     filter: blur(100px);
     background-color: rgb(14, 230, 215);
     right: 2%;
+}
+
+@media (max-width: 1260px){
+    .about-us-container::before{
+        height: 500vh;
+    }
+}
+
+
+@media (max-width: 1050px){
+    .about-us-left{
+        height: 40vh;
+    }
+}
+@media (max-width: 950px){
+    .rotate-icon{
+        right: -30%;
+    }
+    .about-desc{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 760px){
+    .about-us-left{
+        height: 45vh;
+    }
+    .about-us-container::before{
+        height: 550vh;
+    }
+
+}
+
+@media (max-width: 720px){
+    .about-us-container::before{
+        height: 560vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-us-container::before{
+        height: 570vh;
+    }
+}
+
+@media (max-width: 500px){
+    .about-us-container::before{
+        height: 530vh;
+    }
+    .about-us-left{
+        width: 100%;
+        height: auto;
+    }
+    .about-us-right{
+        opacity: 0.2;
+    }
+    .rotate-icon{
+        right: -60%;
+    }
+    
+    .about-desc{
+        font-size: 1.15rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 415px) {
+    .about-us-container::before{
+        height: 540vh;
+    }
+}
+
+@media (max-width: 370px){
+    .about-us-container::before{
+        height: 520vh;
+    }
 }

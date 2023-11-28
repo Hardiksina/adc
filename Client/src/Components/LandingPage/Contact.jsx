@@ -31,8 +31,8 @@ export const Contact = () => {
   }
   return (
     <div className='contact-container'>
-        <div className="contact-row" style={{height: "25vh", marginBottom:"1em"}}>
-          <div className="contact-column" style={{width: "37%"}}>
+        <div className="contact-row" id="contact-row-col">
+          <div className="contact-column" id="address" >
               <span className='contact-subhead'><FaLocationDot style={{marginRight:"0.5em"}}/> Our Address</span>
               <span className="contact-value">Chandigarh University, NH-95, Ludhiana, Punjab</span>
           </div>
@@ -47,15 +47,15 @@ export const Contact = () => {
 
           </div>
         </div>
-        <div className="contact-row" style={{borderRadius:"10px"}}>
-          <div className="contact-map">
+        <div className="contact-row" id="contact-form" style={{borderRadius:"10px"}}>
+          {/* <div className="contact-map">
 
-          </div>
+          </div> */}
           <div className="contact-form-container">
             <form onSubmit={handleSubmit} className='contact-form' method="get">
               <span>
-                <input type="text" className='contact-input' name='name' onChange={handleChange} placeholder='Your Name' style={{width: "42%"}} />
-                <input type="email" className='contact-input' name='email' onChange={handleChange} placeholder='Your Email' style={{width: "44%"}} />
+                <input type="text" className='contact-input' id="name" name='name' onChange={handleChange} placeholder='Your Name' />
+                <input type="email" className='contact-input' id="email" name='email' onChange={handleChange} placeholder='Your Email'  />
               </span>
                 <input type="text" className='contact-input' name="subject" id="subject" onChange={handleChange} placeholder='Subject' />
                 <textarea type="text" className='contact-input' name="message" id="message" rows={4} onChange={handleChange} placeholder='Message' />

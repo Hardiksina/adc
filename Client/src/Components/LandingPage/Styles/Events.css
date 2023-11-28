@@ -55,3 +55,36 @@
     filter: blur(60px);
     background-color: rgb(14, 230, 215);
 }
+
+@media (max-width: 900px){
+    .event-content{
+        width: 90%;
+    }
+    .events-container{
+        align-items: center;
+    }
+    .underline{
+        margin-top: 1%;
+    }
+    .event-heading{
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    .event-desc{
+        width: 90%;
+        font-size: 1.10rem;
+    }
+}
+
+@media (max-width: 500px){
+    .event-desc{
+        width: 95%;
+        font-size: 1rem;
+    }
+
+    .events-carousel{
+        width: 100%;
+    }
+}

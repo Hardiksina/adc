@@ -5,7 +5,9 @@ import {AiFillLinkedin, AiFillInstagram, AiFillYoutube, AiFillTwitterSquare} fro
 export const Footer = () => {
   return (
     <div className='footer-container'>
-        Follow Us: 
+        <div className="footer-head">
+            Follow Us: 
+        </div>
         <span className='footer-span'>
             <AiFillLinkedin />
         </span>
